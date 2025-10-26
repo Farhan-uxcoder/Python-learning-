@@ -11,6 +11,9 @@ print(type(x))
 #float - decimal numbers
 y = 12.4
 print(type(y))
+num = 2+3j
+print(type(num)) #complex
+
 
 #string - sequence of characters
 z="farhan"
@@ -23,11 +26,11 @@ list1[1]=20
 print(list1)
 print(type(list1))
 
-#tuple - collection of items which is immutable 
+#tuple - collection of items which is immutable
 tuple1 = (1,2,3)
 print(tuple1)
 
-# file pointers 
+# file pointers
 x = open('variables.txt','w')
 print(type(x))
 x.write("BISMILLAH")
