@@ -26,7 +26,7 @@ print(mat)
 print(mix[2])
 print(mix[:2]) # output is 1 and a not hello
 
-#every 2nd elements 
+#every 2nd elements
 print(mix[::2])
 
 #reverse a list
@@ -99,11 +99,7 @@ print(unsorted.index(4))
 unsorted.extend([5,6,7])
 print(unsorted)
 
-
-
-
-
-
-
-
+#nesting tuples in list
+mylist = [(1,2),(3,4),(5,6)]
+print(mylist) 
 
